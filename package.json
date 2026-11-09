@@ -1,0 +1,19 @@
+{
+  "name": "qa-playwright-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "playwright test",
+  "test:chromium": "playwright test --project=chromium",
+  "test:login": "playwright test tests/login.spec.js --project=chromium",
+  "report": "playwright show-report"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
